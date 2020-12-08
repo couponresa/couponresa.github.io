@@ -3,9 +3,9 @@
    "minimum": 12,
    "multiple":6,
    "modes": [
-      livraison: { titre:"Livraison en Relais Colis",minimum:12,step:12,fees:[10,20,30,40]},
-      relaiscolis: { titre:"Livraison en Relais Colis",minimum:12,step:12,fees:[10,20,30,40]},
-      retrait: {titre:"Retrait à la Cave",minimum:1,fees:[]},
+      "livraison": { titre:"Livraison en Relais Colis",minimum:12,step:12,fees:[10,20,30,40]},
+      "relais-colis": { titre:"Livraison en Relais Colis",minimum:12,step:12,fees:[10,20,30,40]},
+      "retrait": {titre:"Retrait à la Cave",minimum:1,fees:[]},
    ],
 },
 "produits": [
