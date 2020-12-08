@@ -1,0 +1,73 @@
+{
+"preferences": {
+   "minimum": 12,
+   "multiple":6,
+   "modes": [
+      'livraison': { titre:'Livraison en Relais Colis',minimum:12,step:12,fees:[10,20,30,40]},
+      'relais-colis': { titre:'Livraison en Relais Colis',minimum:12,step:12,fees:[10,20,30,40]},
+      'retrait': {titre:'Retrait à la Cave',minimum:1,fees:[]},
+   ],
+},
+"produits": [
+  'muscadet-le-vivier':{
+    titre:'Muscadet Sèvre et Maine sur Lie "Le Vivier"',
+    format:75,
+    annees: [
+     '2019': { prix: 3.5} 
+     ],
+  'muscadet-sevre-et-maine': {
+    titre:'Muscadet Sèvre et Maine sur Lie',
+    format:75,
+    annees: [
+      '2019': { prix: 3.2 }
+    ]
+  },
+  'sauvignon-gris': {
+    titre:'Sauvignon Gris',
+    format:75,
+    annees: [
+      '2019': { prix: 4.2 }
+    ]
+  },
+  'douceur-automne':{
+    titre:"Douceur d'Automne",
+    format:65,
+    annees: ['2019':{prix:6}],
+  },
+  'methode-traditionnelle': {
+    titre:"Méthode Traditionnelle",
+    format:75,
+    annees: ['2019':{prix:5}],
+  },
+  'gros-plant-pays-nantais':{
+    titre:'Gros Plant du Pays Nantais',
+    format:75,
+    annees:['2019':{prix:3}],
+  },
+  'chardonnay': {
+    titre:'Chardonnay',
+    format:75,
+    annees:['2019':{prix:3.4}]
+  },
+  'cabernet-franc': {
+    titre:'Cabernet Franc',
+    format:75,
+    annees:['2019':{prix:3.4}]
+  },
+  'cabernet-franc-merlot': {
+    titre:'Cabernet Franc Merlot',
+    format:75,
+    annees:['2019':{prix:3.6}]
+  },
+  'cabertnet-franc-merlot-rose': {
+    titre:'Cabernet Franc Merlot Rosé',
+    format:75,
+    annees:['2019':{prix:3.1}]
+  },
+  'merlot': {
+    titre:'Merlot',
+    format:75,
+    annees:['2019':{prix:3.2}]
+  },
+]
+}
